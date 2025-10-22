@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Editor
 {
-  public class FontReplacer : EditorWindow
+  public class FontUpdater : EditorWindow
   {
     private readonly List<TextComponentInfo> _foundTexts = new();
     private TMP_FontAsset _newFont;
@@ -31,10 +31,10 @@ namespace Editor
       }
     }
     
-    [MenuItem("Tools/Font Replacer")]
+    [MenuItem("Tools/Font Updater")]
     public static void ShowWindow()
     {
-      GetWindow<FontReplacer>("Font Replacer");
+      GetWindow<FontUpdater>("Font Updater");
     }
 
     private void OnGUI()
@@ -317,7 +317,7 @@ namespace Editor
       
       EditorUtility.DisplayDialog("Success", message, "OK");
       
-      Debug.Log($"Font Replacer: Modified {processedPrefabs} prefabs with {totalReplacements} font replacements.");
+      Debug.Log($"Font Updater: Modified {processedPrefabs} prefabs with {totalReplacements} font replacements.");
       foreach (string path in modifiedPrefabs) 
         Debug.Log($"  - {path}");
       

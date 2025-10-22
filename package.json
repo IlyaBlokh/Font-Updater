@@ -1,9 +1,8 @@
 {
-  "name": "com.echotitan.fontreplacer",
+  "name": "com.echotitan.fontupdater",
   "version": "1.0.0",
-  "displayName": "Font Replacer",
-  "description": "A lightweight tool for updating fonts in prefabs",
-  "unity": "6000.0",
+  "displayName": "Font Updater",
+  "description": "A lightweight tool for updating fonts in prefabs\n\nFor more info: https://github.com/ilyablokh/Font-Updater",
   "keywords": [
     "editor",
     "tool",
