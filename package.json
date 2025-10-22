@@ -1,0 +1,17 @@
+{
+  "name": "com.echotitan.fontreplacer",
+  "version": "1.0.0",
+  "displayName": "Font Replacer",
+  "description": "A lightweight tool for updating fonts in prefabs",
+  "unity": "6000.0",
+  "keywords": [
+    "editor",
+    "tool",
+    "utility"
+  ],
+  "author": {
+    "name": "Eliahu Blokh",
+    "email": "ilya@iblokh.com",
+    "url": "https://github.com/ilyablokh"
+  }
+}
