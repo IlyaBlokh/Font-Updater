@@ -1,6 +1,6 @@
 {
   "name": "com.echotitan.fontupdater",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "displayName": "Font Updater",
   "description": "A lightweight tool for updating fonts in prefabs\n\nFor more info: https://github.com/ilyablokh/Font-Updater",
   "keywords": [
