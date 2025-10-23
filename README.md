@@ -6,12 +6,12 @@ A handy Editor tool for bulk updating a font in prefabs
 
 Add via Package Manager git URL:
 ```
-`https://github.com/ilyablokh/Font-Updater.git#1.0.0`
+`https://github.com/ilyablokh/Font-Updater.git#1.0.1`
 ```
 
 Or add to `Packages/manifest.json`:
 ```
-"com.echotitan.fontupdater": "https://github.com/ilyablokh/Font-Updater.git#1.0.0"
+"com.echotitan.fontupdater": "https://github.com/ilyablokh/Font-Updater.git#1.0.1"
 ```
 
 
