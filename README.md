@@ -4,14 +4,16 @@ A handy Editor tool for bulk updating a font in prefabs
 
 ## Installation
 
-### Via Git URL
-1. Open Unity Package Manager
-2. Click the `+` button
-3. Select "Add package from git URL"
-4. Enter: `https://github.com/ilyablokh/Font-Updater.git`
+Add via Package Manager git URL:
+```
+`https://github.com/ilyablokh/Font-Updater.git#1.0.0`
+```
 
-### Via Git URL with version
-`https://github.com/ilyablokh/Font-Updater.git.#1.0.0`
+Or add to `Packages/manifest.json`:
+```
+"com.echotitan.fontupdater": "https://github.com/ilyablokh/Font-Updater.git#1.0.0"
+```
+
 
 ## Usage
 - Open the tool under *Tools/Font Updater* menu
