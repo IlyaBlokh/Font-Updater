@@ -4,16 +4,20 @@ A handy Editor tool for bulk updating a font in prefabs
 
 ## Installation
 
-Add via Package Manager git URL:
+### Add via Package Manager git url:
+#### Latest Version (Main Branch)
 ```
-https://github.com/ilyablokh/Font-Updater.git#1.0.1
+https://github.com/ilyablokh/Font-Updater.git
+```
+#### Specific Version (Recommended for Production)
+```
+https://github.com/ilyablokh/Font-Updater.git#1.0.2
 ```
 
-Or add to `Packages/manifest.json`:
+### Or add to `Packages/manifest.json`:
 ```
-com.echotitan.fontupdater": "https://github.com/ilyablokh/Font-Updater.git#1.0.1
+com.echotitan.fontupdater": "https://github.com/ilyablokh/Font-Updater.git#1.0.2
 ```
-
 
 ## Usage
 - Open the tool under *Tools/Font Updater* menu
